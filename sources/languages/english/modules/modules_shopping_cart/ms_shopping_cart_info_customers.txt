@@ -1,0 +1,13 @@
+
+ module_shopping_cart_info_customers = Do  you want to display a process order information for the customers ?
+ module_shopping_cart_info_customers_description = Display a process order information for the customers
+
+ module_shopping_cart_info_customers_heading_payment = Secured payment
+ module_shopping_cart_info_customers_heading_shipping = Speed shipping
+ module_shopping_cart_info_customers_heading_private = Privacy respect
+ module_shopping_cart_info_customers_heading_contact_us = Contact us
+ module_shopping_cart_info_customers_text_payment = We do not store your card number and we don't have access to your information.
+ module_shopping_cart_info_customers_text_shipping = We do our best to serve you within less than 72 hr.<br />
+ module_shopping_cart_info_customers_text_free_amount = You get <i><strong>free shipping</strong></i> if your total order is over
+ module_shopping_cart_info_customers_text_private = We respect the law concerning the confidentiality of information and we do not sell your information to third parties.
+ module_shopping_cart_info_customers_text_contact_us = <br />

@@ -1,0 +1,12 @@
+
+module_shopping_cart_info_customers = Souhaitez-vous afficher dans le panier une information pour les clients ?
+module_shopping_cart_info_customers_description = Affiche une information une information pour les clients
+module_shopping_cart_info_customers_heading_payment = Paiement sécurisé
+module_shopping_cart_info_customers_heading_shipping = Livraison rapide
+module_shopping_cart_info_customers_heading_private = Respect de la privée
+module_shopping_cart_info_customers_heading_contact_us = Nous contacter
+module_shopping_cart_info_customers_text_payment = Nous ne stockons pas le numéro de votre carte bancaire et nous n'avons pas accès à vos informations.
+module_shopping_cart_info_customers_text_shipping = Nous faisons de notre mieux pour vous servir dans un délai de moins de 72 hr. <br />
+module_shopping_cart_info_customers_text_free_amount = Vous bénéficiez <i><strong>d'une livraison gratuite</strong></i> si le montant total de votre commande est supérieur à
+module_shopping_cart_info_customers_text_private = Nous respectons la loi concernant la confidentialité des informations et nous ne revendons pas à des tiers vos données.
+module_shopping_cart_info_customers_text_contact_us = <br />
