@@ -1,5 +1,5 @@
 {
- "title":		"ms_shopping_cart_info_customers",
+ "title":		"modules_shopping_cart_info_customers",
  "type":        "modules_shopping_cart",
  "vendor":		 "modules_shopping_cart",
  "is_free":   "yes",
