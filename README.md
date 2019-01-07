@@ -31,6 +31,18 @@ Implementation:
 
 - Copy the modules_shopping_cart_info_customers.json into ClicShopping/Work/Cache/Github (manual installation)
 
+ All informations about the CliCshopping
+
+ Community : https://www.clicshopping.org
+
+ Software : https://github.com/ClicShopping
+
+ Official add on : https://github.com/ClicShoppingOfficialModulesV3
+
+ Community add on : https://github.com/ClicShoppingV3Community
+
+ trademark License info : https://www.clicshopping.org/forum/trademark/ 
+ 
 ![image](https://github.com/ClicShoppingV3Community/modules_shopping_cart_info_customers/blob/master/ModuleInfosJson/image.png)
 
 
