@@ -51,7 +51,7 @@
         $shopping_cart_information_customers = '  <!-- ms_shopping_cart_info_customers -->'. "\n";
 
         ob_start();
-        require($CLICSHOPPING_Template->getTemplateModules($this->group . '/content/shopping_cart_info_customers'));
+        require_once($CLICSHOPPING_Template->getTemplateModules($this->group . '/content/shopping_cart_info_customers'));
 
         $shopping_cart_information_customers .= ob_get_clean();
 
