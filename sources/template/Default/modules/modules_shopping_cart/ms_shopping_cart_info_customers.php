@@ -39,6 +39,7 @@
       $CLICSHOPPING_Template = Registry::get('Template');
 
       if (isset($_GET['Cart'])  && $CLICSHOPPING_ShoppingCart->getCountContents() > 0) {
+        $free_amount = '';
         if (defined('MODULE_ORDER_TOTAL_SHIPPING_FREE_SHIPPING') && MODULE_ORDER_TOTAL_SHIPPING_FREE_SHIPPING != 'false') {
           if (defined('CLICSHOPPING_APP_FREE_SHIPPING_AMOUNT_FS_AMOUNT') &&  !empty(CLICSHOPPING_APP_FREE_SHIPPING_AMOUNT_FS_AMOUNT)) {
             $free_amount = CLICSHOPPING::getDef('module_shopping_cart_info_customers_text_free_amount') . ' ' . CLICSHOPPING_APP_FREE_SHIPPING_AMOUNT_FS_AMOUNT . ' ' . DEFAULT_CURRENCY;
