@@ -38,7 +38,7 @@
       $CLICSHOPPING_ShoppingCart = Registry::get('ShoppingCart');
       $CLICSHOPPING_Template = Registry::get('Template');
 
-      if (isset($_GET['Cart'])  && $CLICSHOPPING_ShoppingCart->getCountContents() > 0) {
+      if (isset($_GET['Cart']) && $CLICSHOPPING_ShoppingCart->getCountContents() > 0) {
         $free_amount = '';
         if (defined('MODULE_ORDER_TOTAL_SHIPPING_FREE_SHIPPING') && MODULE_ORDER_TOTAL_SHIPPING_FREE_SHIPPING != 'false') {
           if (defined('CLICSHOPPING_APP_FREE_SHIPPING_AMOUNT_FS_AMOUNT') &&  !empty(CLICSHOPPING_APP_FREE_SHIPPING_AMOUNT_FS_AMOUNT)) {
@@ -127,7 +127,7 @@
     }
     
     public function keys() {
-      return array (
+      return array(
         'MODULE_SHOPPING_CART_INFO_CUSTOMERS_STATUS',
         'MODULE_SHOPPING_CART_INFO_CUSTOMERS_CONTENT_WIDTH',
         'MODULE_SHOPPING_CART_INFO_CUSTOMERS_POSITION',
