@@ -49,7 +49,7 @@
         $content_width = (int)MODULE_SHOPPING_CART_INFO_CUSTOMERS_CONTENT_WIDTH;
         $position = MODULE_SHOPPING_CART_INFO_CUSTOMERS_POSITION;
 
-        $shopping_cart_information_customers = '  <!-- ms_shopping_cart_info_customers -->'. "\n";
+        $shopping_cart_information_customers = '  <!-- ms_shopping_cart_info_customers -->' . "\n";
 
         ob_start();
         require_once($CLICSHOPPING_Template->getTemplateModules($this->group . '/content/shopping_cart_info_customers'));
