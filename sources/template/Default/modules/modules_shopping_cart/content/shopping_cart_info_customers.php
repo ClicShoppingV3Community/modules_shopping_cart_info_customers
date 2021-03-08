@@ -23,7 +23,7 @@
         <th width="20%" align="center"><strong><?php echo CLICSHOPPING::getDef('module_shopping_cart_info_customers_heading_contact_us'); ?></strong></th>
       </tr>
       <tr valign="top">
-        <td><?php echo CLICSHOPPING::getDef('module_shopping_cart_info_customers_text_payment'); ?><p class="text-md-center;"><?php echo  HTML::image($CLICSHOPPING_Template->getDirectoryTemplateImages() . 'logos/payment/3_cb.png'); ?></p></td>
+        <td><?php echo CLICSHOPPING::getDef('module_shopping_cart_info_customers_text_payment'); ?><p class="text-center;"><?php echo  HTML::image($CLICSHOPPING_Template->getDirectoryTemplateImages() . 'logos/payment/3_cb.png'); ?></p></td>
         <td><?php echo CLICSHOPPING::getDef('module_shopping_cart_info_customers_text_shipping') . ' ' . $free_amount; ?></td>
         <td><?php echo CLICSHOPPING::getDef('module_shopping_cart_info_customers_text_private'); ?></td>
         <td><?php echo CLICSHOPPING::getDef('module_shopping_cart_info_customers_text_contact_us'); ?><?php echo HTML::link(CLICSHOPPING::link(null,'Info&Contact'), STORE_OWNER_EMAIL_ADDRESS); ?></td>
